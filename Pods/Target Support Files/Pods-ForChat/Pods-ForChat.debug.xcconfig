@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/HyphenateSDK"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/HyphenateSDK/HyphenateSDK/lib"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD/SVProgressHUD.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/HyphenateSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"HyphenateSDK" -l"c++" -l"sqlite3" -l"stdc++.6.0.9" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreMedia" -framework "ImageIO" -framework "MobileCoreServices" -framework "SVProgressHUD"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

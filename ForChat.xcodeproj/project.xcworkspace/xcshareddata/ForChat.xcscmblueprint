@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "910dd7f3-cd76-05e5-b308-ce57b7db7bff",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "910dd7f3-cd76-05e5-b308-ce57b7db7bff" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "910dd7f3-cd76-05e5-b308-ce57b7db7bff" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F7B7890B-C17A-49BB-A696-D461D246C533",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "910dd7f3-cd76-05e5-b308-ce57b7db7bff" : "ForChat(%E5%B7%A5%E4%BD%9C)\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ForChat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/ForChat\/ForChat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LiuHang0925\/ForChat-IM-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "910dd7f3-cd76-05e5-b308-ce57b7db7bff"
+    }
+  ]
+}

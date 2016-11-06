@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b4dedc87-5bfd-7a34-ea08-bed98d091e9c",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b4dedc87-5bfd-7a34-ea08-bed98d091e9c" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b4dedc87-5bfd-7a34-ea08-bed98d091e9c" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D4FE01B4-9245-41BA-BBBB-65BCF9F1241A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b4dedc87-5bfd-7a34-ea08-bed98d091e9c" : "liuhang0925.ForChat\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ForChat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "document\/ForChat.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/vip2.svnspot.com\/liuhang0925.ForChat",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b4dedc87-5bfd-7a34-ea08-bed98d091e9c"
+    }
+  ]
+}

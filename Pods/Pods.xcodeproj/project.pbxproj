@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302F1295288ADC94F4F0EAF2FE2FA6D2 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E002D5D91BCDDB92812BE94D5204C15 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303500A9DBC03F0A545BCABBF6213869 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B2500890CB3385FEDFF6B7C1370950 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3315E010AF03FD2EEC1632561B13B8EC /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9A18E0AAB10E15A02F6774045AC202 /* SVIndefiniteAnimatedView.m */; };
+		3D2DE7DA958DE4B0A68328B84E277E83 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D236558056EBA463F656079100436F4B /* SVProgressHUD-dummy.m */; };
+		5097F366FAD6EBED0BC92BF31C8EE7B2 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = A459DDD01033DEA4D9FFCB4937112CD3 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80EAE3921C1AFE26F99AB46443F2E5E1 /* Pods-ForChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4366C5CB5C0F21BA64373B25D50164F2 /* Pods-ForChat-dummy.m */; };
+		83BEF8E8B9BC1DD77DBB0C940AD240BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		8A9E9B5E16310B2812D21464B0A22873 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */; };
+		95A08E262865E8FAA593902AC6217EF7 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F885B1FFF034120D0E84714929A57A61 /* SVProgressHUD.m */; };
+		95FF6C2275CFFF89E1F28D7CD396F464 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3275D067F7101256E76E53E91BEB56D0 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		984A90E8B3CE655CAF6B7E10C73A5BED /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04335381A9228014B30CF1B48E7C87DA /* SVProgressHUD.bundle */; };
+		9F2957EEAC5121DBEAC2394541F755B3 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C43EA4693D7791C2BF96170FEE9D305D /* SVProgressAnimatedView.m */; };
+		B13A19784972B81E9DB5B637745E3C3B /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E90273A2E883629082D789AA681C2B71 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C56AD2BEBE551B212E22B92A0D11865D /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A62ACEBA78F17F8D9AEC1831763AF /* SVRadialGradientLayer.m */; };
+		E043CEC670274D9A1922C94E14A146C1 /* Pods-ForChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DFAE6D1A6A8640AFA3A87674D504B8F /* Pods-ForChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4A11336A46773B431E3A03DB41EED34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD76335C75DF87A8D1924934684660B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA07D5DD87C2DB6E6958D803FEA61DA5;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04335381A9228014B30CF1B48E7C87DA /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		04F45FD123886703EB3005B8E3560A98 /* EMCmdMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCmdMessageBody.h; path = HyphenateSDK/include/EMCmdMessageBody.h; sourceTree = "<group>"; };
+		0635719599B4866AF9A366FB2ED7EAB7 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		06549E7D4E11D49D62CA3B8B15E21074 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		0A89F68F11855ED5F6EFC70357F2E9C1 /* EMContactManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMContactManagerDelegate.h; path = HyphenateSDK/include/EMContactManagerDelegate.h; sourceTree = "<group>"; };
+		0C06BC553F5805BE39EFCE5077765D2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114F9A455E0CE59D2790E5EE260EFEA8 /* Pods-ForChat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ForChat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		121283A8C3B2D38A7C5D9D06B810015B /* EMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMMessage.h; path = HyphenateSDK/include/EMMessage.h; sourceTree = "<group>"; };
+		1545FE4942D85479E0D6273521B47CE0 /* EMFileMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMFileMessageBody.h; path = HyphenateSDK/include/EMFileMessageBody.h; sourceTree = "<group>"; };
+		1DFAE6D1A6A8640AFA3A87674D504B8F /* Pods-ForChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ForChat-umbrella.h"; sourceTree = "<group>"; };
+		1F46078553A45F4114616C5B3ED9A7B2 /* EMGroupOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupOptions.h; path = HyphenateSDK/include/EMGroupOptions.h; sourceTree = "<group>"; };
+		2441AD0ADEABE0C0F850FC0C2530E05B /* libHyphenateSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHyphenateSDK.a; path = HyphenateSDK/lib/libHyphenateSDK.a; sourceTree = "<group>"; };
+		295226E61B8406D8FC5C27329912662F /* EMGroupManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupManagerDelegate.h; path = HyphenateSDK/include/EMGroupManagerDelegate.h; sourceTree = "<group>"; };
+		314D1F6730746B1C6C9519E442575377 /* EMChatManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerDelegate.h; path = HyphenateSDK/include/EMChatManagerDelegate.h; sourceTree = "<group>"; };
+		3275D067F7101256E76E53E91BEB56D0 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		337DB365E161D5456ECFECE6E8046250 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3846EB7F22D04BDC27D13F987D32ECC6 /* EMOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMOptions.h; path = HyphenateSDK/include/EMOptions.h; sourceTree = "<group>"; };
+		3D7A62ACEBA78F17F8D9AEC1831763AF /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		3E002D5D91BCDDB92812BE94D5204C15 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		4366C5CB5C0F21BA64373B25D50164F2 /* Pods-ForChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ForChat-dummy.m"; sourceTree = "<group>"; };
+		514D8278AA615D360CB557824DDBB568 /* EMTextMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMTextMessageBody.h; path = HyphenateSDK/include/EMTextMessageBody.h; sourceTree = "<group>"; };
+		5CD776377DFDC94F268E2455BD847138 /* EMErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMErrorCode.h; path = HyphenateSDK/include/EMErrorCode.h; sourceTree = "<group>"; };
+		66DE63E59A623AA2B4DBE1F9D3C740D0 /* IEMChatManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatManager.h; path = HyphenateSDK/include/IEMChatManager.h; sourceTree = "<group>"; };
+		698713BDCCC7037A5AC0384DE37212A1 /* EMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMConversation.h; path = HyphenateSDK/include/EMConversation.h; sourceTree = "<group>"; };
+		6C7002AD35E4E9AD8D83F5C67AAFB686 /* IEMGroupManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMGroupManager.h; path = HyphenateSDK/include/IEMGroupManager.h; sourceTree = "<group>"; };
+		72026207D72886F8B2087D7B367E6D86 /* EMClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMClient.h; path = HyphenateSDK/include/EMClient.h; sourceTree = "<group>"; };
+		74564AAC53B2CF577E27F9469652A711 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		75FBEE189E5BA4F4F0655EE36CF9DB5C /* EMPushOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMPushOptions.h; path = HyphenateSDK/include/EMPushOptions.h; sourceTree = "<group>"; };
+		798BAAFB1B3FB5CC6791836B594AA6A4 /* EMSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMSDK.h; path = HyphenateSDK/include/EMSDK.h; sourceTree = "<group>"; };
+		7A517DA583FE6CC7E090FEDCEEDD505B /* EMImageMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMImageMessageBody.h; path = HyphenateSDK/include/EMImageMessageBody.h; sourceTree = "<group>"; };
+		8302E1E7509FE0BBB2F40CB850809F6E /* EMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMError.h; path = HyphenateSDK/include/EMError.h; sourceTree = "<group>"; };
+		8E22C1D1FE61D62E9E140CDEACD60D72 /* EMLocationMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMLocationMessageBody.h; path = HyphenateSDK/include/EMLocationMessageBody.h; sourceTree = "<group>"; };
+		90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		923E90F16A02622CD47FAD826046BFB9 /* EMCursorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCursorResult.h; path = HyphenateSDK/include/EMCursorResult.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9793A5636C757791A0C00CC242A73F23 /* EMGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroup.h; path = HyphenateSDK/include/EMGroup.h; sourceTree = "<group>"; };
+		98B2500890CB3385FEDFF6B7C1370950 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		9BE55319A4C80F77E145139B31217C15 /* Pods-ForChat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ForChat-acknowledgements.plist"; sourceTree = "<group>"; };
+		A459DDD01033DEA4D9FFCB4937112CD3 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		A5616DAB201113D17DAB77985BA10593 /* EMVideoMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVideoMessageBody.h; path = HyphenateSDK/include/EMVideoMessageBody.h; sourceTree = "<group>"; };
+		A56C143AD8753B8B7737EA86C2C06072 /* EMChatroom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatroom.h; path = HyphenateSDK/include/EMChatroom.h; sourceTree = "<group>"; };
+		ABF7E9FB0B3F75C467BF81BD19D9A3CE /* Pods-ForChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForChat.release.xcconfig"; sourceTree = "<group>"; };
+		B9917175F502CFF644C87F8A6912B334 /* Pods_ForChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43EA4693D7791C2BF96170FEE9D305D /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		C82394A9AF716262D13D4F3A1671AA67 /* EMMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMMessageBody.h; path = HyphenateSDK/include/EMMessageBody.h; sourceTree = "<group>"; };
+		CC8EE360D1C6C98F95A4397C0E809E68 /* Pods-ForChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ForChat.modulemap"; sourceTree = "<group>"; };
+		CC9A18E0AAB10E15A02F6774045AC202 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		CEB6B0CE23AE39D89902A0532ADD1AEE /* IEMChatroomManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatroomManager.h; path = HyphenateSDK/include/IEMChatroomManager.h; sourceTree = "<group>"; };
+		CFB029F30D46BDC11E4D463EB4468171 /* EMOptions+PrivateDeploy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMOptions+PrivateDeploy.h"; path = "HyphenateSDK/include/EMOptions+PrivateDeploy.h"; sourceTree = "<group>"; };
+		D208753C68043D4B5DD2333123FCFAA1 /* EMChatroomManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatroomManagerDelegate.h; path = HyphenateSDK/include/EMChatroomManagerDelegate.h; sourceTree = "<group>"; };
+		D236558056EBA463F656079100436F4B /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		DE9778357B659B96E87E559961EE6DE1 /* Pods-ForChat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForChat-resources.sh"; sourceTree = "<group>"; };
+		E90273A2E883629082D789AA681C2B71 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		ED1790FEE94EEB207023DBB86C5557CE /* IEMContactManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMContactManager.h; path = HyphenateSDK/include/IEMContactManager.h; sourceTree = "<group>"; };
+		EE48394F668491953023D624C32F75FD /* Pods-ForChat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForChat-frameworks.sh"; sourceTree = "<group>"; };
+		EEDC0FFDADDABE1343A4D4B0F493DC7E /* EMClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMClientDelegate.h; path = HyphenateSDK/include/EMClientDelegate.h; sourceTree = "<group>"; };
+		F3796F87EF18B060C3E505CAB4C837EC /* Pods-ForChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForChat.debug.xcconfig"; sourceTree = "<group>"; };
+		F4BE2C79013477C719F9ABB4C9E16612 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F885B1FFF034120D0E84714929A57A61 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		FBECFBA29A5D0D10E2A49453EEFA0AC4 /* EMVoiceMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVoiceMessageBody.h; path = HyphenateSDK/include/EMVoiceMessageBody.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5716D909E3EA8F3940B3F33C69A7DD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BEF8E8B9BC1DD77DBB0C940AD240BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B363A28F12C014A809C435D861908882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A11336A46773B431E3A03DB41EED34 /* Foundation.framework in Frameworks */,
+				8A9E9B5E16310B2812D21464B0A22873 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C956D6A19BEA4CF384747D282F5C80 /* HyphenateSDK */ = {
+			isa = PBXGroup;
+			children = (
+				314D1F6730746B1C6C9519E442575377 /* EMChatManagerDelegate.h */,
+				A56C143AD8753B8B7737EA86C2C06072 /* EMChatroom.h */,
+				D208753C68043D4B5DD2333123FCFAA1 /* EMChatroomManagerDelegate.h */,
+				72026207D72886F8B2087D7B367E6D86 /* EMClient.h */,
+				EEDC0FFDADDABE1343A4D4B0F493DC7E /* EMClientDelegate.h */,
+				04F45FD123886703EB3005B8E3560A98 /* EMCmdMessageBody.h */,
+				0A89F68F11855ED5F6EFC70357F2E9C1 /* EMContactManagerDelegate.h */,
+				698713BDCCC7037A5AC0384DE37212A1 /* EMConversation.h */,
+				923E90F16A02622CD47FAD826046BFB9 /* EMCursorResult.h */,
+				8302E1E7509FE0BBB2F40CB850809F6E /* EMError.h */,
+				5CD776377DFDC94F268E2455BD847138 /* EMErrorCode.h */,
+				1545FE4942D85479E0D6273521B47CE0 /* EMFileMessageBody.h */,
+				9793A5636C757791A0C00CC242A73F23 /* EMGroup.h */,
+				295226E61B8406D8FC5C27329912662F /* EMGroupManagerDelegate.h */,
+				1F46078553A45F4114616C5B3ED9A7B2 /* EMGroupOptions.h */,
+				7A517DA583FE6CC7E090FEDCEEDD505B /* EMImageMessageBody.h */,
+				8E22C1D1FE61D62E9E140CDEACD60D72 /* EMLocationMessageBody.h */,
+				121283A8C3B2D38A7C5D9D06B810015B /* EMMessage.h */,
+				C82394A9AF716262D13D4F3A1671AA67 /* EMMessageBody.h */,
+				3846EB7F22D04BDC27D13F987D32ECC6 /* EMOptions.h */,
+				CFB029F30D46BDC11E4D463EB4468171 /* EMOptions+PrivateDeploy.h */,
+				75FBEE189E5BA4F4F0655EE36CF9DB5C /* EMPushOptions.h */,
+				798BAAFB1B3FB5CC6791836B594AA6A4 /* EMSDK.h */,
+				514D8278AA615D360CB557824DDBB568 /* EMTextMessageBody.h */,
+				A5616DAB201113D17DAB77985BA10593 /* EMVideoMessageBody.h */,
+				FBECFBA29A5D0D10E2A49453EEFA0AC4 /* EMVoiceMessageBody.h */,
+				66DE63E59A623AA2B4DBE1F9D3C740D0 /* IEMChatManager.h */,
+				CEB6B0CE23AE39D89902A0532ADD1AEE /* IEMChatroomManager.h */,
+				ED1790FEE94EEB207023DBB86C5557CE /* IEMContactManager.h */,
+				6C7002AD35E4E9AD8D83F5C67AAFB686 /* IEMGroupManager.h */,
+				E9E23B1043FBB36F3CBFB240157225DF /* Frameworks */,
+			);
+			path = HyphenateSDK;
+			sourceTree = "<group>";
+		};
+		22F13A453E68DB7B5204F1A0AECF097F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9917175F502CFF644C87F8A6912B334 /* Pods_ForChat.framework */,
+				337DB365E161D5456ECFECE6E8046250 /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270B015CB049073EC9C8E1805AA18C2F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C06BC553F5805BE39EFCE5077765D2D /* Info.plist */,
+				0635719599B4866AF9A366FB2ED7EAB7 /* SVProgressHUD.modulemap */,
+				74564AAC53B2CF577E27F9469652A711 /* SVProgressHUD.xcconfig */,
+				D236558056EBA463F656079100436F4B /* SVProgressHUD-dummy.m */,
+				06549E7D4E11D49D62CA3B8B15E21074 /* SVProgressHUD-prefix.pch */,
+				3E002D5D91BCDDB92812BE94D5204C15 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89F803C7E2D77E11F2120CB28FE0B795 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C4CF4E4772202DC751AF58D15490756 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF03F4A7C604DBF451646792CBD2FE1C /* Pods-ForChat */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D8F6869B23E2CD8C117C74BC1315ACD8 /* Pods */,
+				22F13A453E68DB7B5204F1A0AECF097F /* Products */,
+				4C4CF4E4772202DC751AF58D15490756 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89F803C7E2D77E11F2120CB28FE0B795 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */,
+				EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1A8E6FE757CE7650F006AA39C357FA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04335381A9228014B30CF1B48E7C87DA /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8F6869B23E2CD8C117C74BC1315ACD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03C956D6A19BEA4CF384747D282F5C80 /* HyphenateSDK */,
+				F234D94B94B30A997E8B9CB63D8C0126 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF03F4A7C604DBF451646792CBD2FE1C /* Pods-ForChat */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE2C79013477C719F9ABB4C9E16612 /* Info.plist */,
+				CC8EE360D1C6C98F95A4397C0E809E68 /* Pods-ForChat.modulemap */,
+				114F9A455E0CE59D2790E5EE260EFEA8 /* Pods-ForChat-acknowledgements.markdown */,
+				9BE55319A4C80F77E145139B31217C15 /* Pods-ForChat-acknowledgements.plist */,
+				4366C5CB5C0F21BA64373B25D50164F2 /* Pods-ForChat-dummy.m */,
+				EE48394F668491953023D624C32F75FD /* Pods-ForChat-frameworks.sh */,
+				DE9778357B659B96E87E559961EE6DE1 /* Pods-ForChat-resources.sh */,
+				1DFAE6D1A6A8640AFA3A87674D504B8F /* Pods-ForChat-umbrella.h */,
+				F3796F87EF18B060C3E505CAB4C837EC /* Pods-ForChat.debug.xcconfig */,
+				ABF7E9FB0B3F75C467BF81BD19D9A3CE /* Pods-ForChat.release.xcconfig */,
+			);
+			name = "Pods-ForChat";
+			path = "Target Support Files/Pods-ForChat";
+			sourceTree = "<group>";
+		};
+		E9E23B1043FBB36F3CBFB240157225DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2441AD0ADEABE0C0F850FC0C2530E05B /* libHyphenateSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F234D94B94B30A997E8B9CB63D8C0126 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E90273A2E883629082D789AA681C2B71 /* SVIndefiniteAnimatedView.h */,
+				CC9A18E0AAB10E15A02F6774045AC202 /* SVIndefiniteAnimatedView.m */,
+				A459DDD01033DEA4D9FFCB4937112CD3 /* SVProgressAnimatedView.h */,
+				C43EA4693D7791C2BF96170FEE9D305D /* SVProgressAnimatedView.m */,
+				98B2500890CB3385FEDFF6B7C1370950 /* SVProgressHUD.h */,
+				F885B1FFF034120D0E84714929A57A61 /* SVProgressHUD.m */,
+				3275D067F7101256E76E53E91BEB56D0 /* SVRadialGradientLayer.h */,
+				3D7A62ACEBA78F17F8D9AEC1831763AF /* SVRadialGradientLayer.m */,
+				C1A8E6FE757CE7650F006AA39C357FA0 /* Resources */,
+				270B015CB049073EC9C8E1805AA18C2F /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64C33B79C05261A0BFCF7489948B2D01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A19784972B81E9DB5B637745E3C3B /* SVIndefiniteAnimatedView.h in Headers */,
+				5097F366FAD6EBED0BC92BF31C8EE7B2 /* SVProgressAnimatedView.h in Headers */,
+				302F1295288ADC94F4F0EAF2FE2FA6D2 /* SVProgressHUD-umbrella.h in Headers */,
+				303500A9DBC03F0A545BCABBF6213869 /* SVProgressHUD.h in Headers */,
+				95FF6C2275CFFF89E1F28D7CD396F464 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC791555FDF1EF10DA6E6F05C1AFBCAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E043CEC670274D9A1922C94E14A146C1 /* Pods-ForChat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		467A1A935920002750F52B89CA7CFFBD /* Pods-ForChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6456B986518AD932C88395CDE261AE8E /* Build configuration list for PBXNativeTarget "Pods-ForChat" */;
+			buildPhases = (
+				DC8ADFD5EA717CFD7FB2E20B4F4E0465 /* Sources */,
+				5716D909E3EA8F3940B3F33C69A7DD22 /* Frameworks */,
+				EC791555FDF1EF10DA6E6F05C1AFBCAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58E7A0DA0CE142348A4CAD4F0A7F5C59 /* PBXTargetDependency */,
+			);
+			name = "Pods-ForChat";
+			productName = "Pods-ForChat";
+			productReference = B9917175F502CFF644C87F8A6912B334 /* Pods_ForChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA07D5DD87C2DB6E6958D803FEA61DA5 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CCCA44B097ED04ED78F6E28D652D6D /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				785AAE7D84CD8136A2BF1BD43E925148 /* Sources */,
+				B363A28F12C014A809C435D861908882 /* Frameworks */,
+				64C33B79C05261A0BFCF7489948B2D01 /* Headers */,
+				91B5491E0E9E884ED154F7E29D8EC897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 337DB365E161D5456ECFECE6E8046250 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 22F13A453E68DB7B5204F1A0AECF097F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				467A1A935920002750F52B89CA7CFFBD /* Pods-ForChat */,
+				CA07D5DD87C2DB6E6958D803FEA61DA5 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91B5491E0E9E884ED154F7E29D8EC897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984A90E8B3CE655CAF6B7E10C73A5BED /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		785AAE7D84CD8136A2BF1BD43E925148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3315E010AF03FD2EEC1632561B13B8EC /* SVIndefiniteAnimatedView.m in Sources */,
+				9F2957EEAC5121DBEAC2394541F755B3 /* SVProgressAnimatedView.m in Sources */,
+				3D2DE7DA958DE4B0A68328B84E277E83 /* SVProgressHUD-dummy.m in Sources */,
+				95A08E262865E8FAA593902AC6217EF7 /* SVProgressHUD.m in Sources */,
+				C56AD2BEBE551B212E22B92A0D11865D /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8ADFD5EA717CFD7FB2E20B4F4E0465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EAE3921C1AFE26F99AB46443F2E5E1 /* Pods-ForChat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58E7A0DA0CE142348A4CAD4F0A7F5C59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = CA07D5DD87C2DB6E6958D803FEA61DA5 /* SVProgressHUD */;
+			targetProxy = FAD76335C75DF87A8D1924934684660B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A0FC410D7E6072912AE2A2ED7AB0E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74564AAC53B2CF577E27F9469652A711 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AF0E0B81F03D2E3D14F325753A7B933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74564AAC53B2CF577E27F9469652A711 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5FBD0A8FDB160CAA50790BEF2029493F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3796F87EF18B060C3E505CAB4C837EC /* Pods-ForChat.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForChat/Pods-ForChat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ForChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		720A9CCC87434CF5B8E3E6C045A7E598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF7E9FB0B3F75C467BF81BD19D9A3CE /* Pods-ForChat.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForChat/Pods-ForChat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ForChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6456B986518AD932C88395CDE261AE8E /* Build configuration list for PBXNativeTarget "Pods-ForChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBD0A8FDB160CAA50790BEF2029493F /* Debug */,
+				720A9CCC87434CF5B8E3E6C045A7E598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CCCA44B097ED04ED78F6E28D652D6D /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF0E0B81F03D2E3D14F325753A7B933 /* Debug */,
+				0A0FC410D7E6072912AE2A2ED7AB0E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

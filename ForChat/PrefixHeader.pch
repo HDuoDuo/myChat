@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  ForChat
+//
+//  Created by liuhang on 16/8/5.
+//  Copyright © 2016年 刘航. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//环信集成
+#define EaseMobAppKey @"easemob-demo#chatdemoui"
+#define AppKey @"569372865qin#imdemo"
+#define Client_Id @"YXA6wK-vkFlKEeatGxsJmwelLQ"
+#define Client_Secret @"YXA6sA2hVmLOtKoy-b2gmJ-Modw-7yY"
+//屏幕宽高
+#define screenW [UIScreen mainScreen].bounds.size.width
+#define screenH [UIScreen mainScreen].bounds.size.height
+#define navigationBarH 64
+#define tabBarH 44
+//头文件
+#import "EMSDK.h"
+
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,6 @@
+framework module Pods_ForChat {
+  umbrella header "Pods-ForChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,15 @@
+PODS:
+  - HyphenateSDK (3.1.5)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - HyphenateSDK
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  HyphenateSDK: 382aa930ce5af6ea69aa52e6a122b111abb03aac
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: 030a0e1acd5cd5ee8698df3ea4da1dbe6607c21d
+
+COCOAPODS: 1.0.0
